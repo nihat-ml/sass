@@ -1,0 +1,105 @@
+#main{
+    width: 100%;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/young-rural-travellers-picnic2.jpg);
+    // height: 75vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 9% ;
+    
+    .intro{
+        width: 25%;
+       
+        // margin-top: 10px;
+             
+        
+        
+        display: flex;
+       
+        background-color: white;
+       
+        @include responsive(x-large){
+            width: 40%;
+        }
+        @include responsive(large){
+            width: 50%;
+        }
+       
+        @include responsive(small){
+            width: 100% ;
+        }
+
+        .image-text{
+            padding: 20px 10px;
+            h1{ 
+                text-align:start;
+                font-size: 36px;
+                padding: 15px 8px;
+            }
+            p{
+                font-size: 20px;
+                padding: 20px 8px;
+            }
+            button{
+                color: white;
+                background-color: #a79770;
+                font-size: 15px;
+                margin: 0px 8px;
+                padding: 10px 40px;
+                border-radius: 20px;
+                border: none;
+            }
+            button:hover{
+                background-color: #978964;
+            }
+        }
+    }
+}
+#interier{
+    
+    width: 80%;
+    margin: 0 auto;
+    .text-name{
+        font-size: 48px;
+        padding: 60px 0px;
+        text-align: center;
+    }
+    .interier-up{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 100px;
+        
+        
+        .interier-upper{
+            background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/14.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            min-height: 600px;
+            width: 33%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;   
+            justify-content: flex-end;     
+            padding: 50px;
+
+            h2{
+                color: white;
+                font-size: 30px;
+                padding-bottom: 20px;
+                border-top: 2px solid white;
+            }
+            p{
+                color: white;
+                font-size: 20px;
+            }
+        }   
+    }
+
+    
+    
+}
+

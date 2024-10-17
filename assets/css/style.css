@@ -1,0 +1,137 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.container ul {
+  display: flex;
+  gap: 30px;
+  padding: 0px 10px;
+  font-size: 20px;
+}
+.container ul a:hover {
+  background-color: grey;
+  padding: 8px;
+}
+@media (max-width: 992px) {
+  .container ul {
+    display: none;
+  }
+}
+.container .menu {
+  display: none;
+}
+.container .menu i:hover {
+  background-color: grey;
+  padding: 8px;
+}
+@media (max-width: 992px) {
+  .container .menu {
+    display: flex;
+  }
+}
+
+#main {
+  width: 100%;
+  background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/young-rural-travellers-picnic2.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 9%;
+}
+#main .intro {
+  width: 25%;
+  display: flex;
+  background-color: white;
+}
+@media (max-width: 1300px) {
+  #main .intro {
+    width: 40%;
+  }
+}
+@media (max-width: 1200px) {
+  #main .intro {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  #main .intro {
+    width: 100%;
+  }
+}
+#main .intro .image-text {
+  padding: 20px 10px;
+}
+#main .intro .image-text h1 {
+  text-align: start;
+  font-size: 36px;
+  padding: 15px 8px;
+}
+#main .intro .image-text p {
+  font-size: 20px;
+  padding: 20px 8px;
+}
+#main .intro .image-text button {
+  color: white;
+  background-color: #a79770;
+  font-size: 15px;
+  margin: 0px 8px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  border: none;
+}
+#main .intro .image-text button:hover {
+  background-color: #978964;
+}
+
+#interier {
+  width: 80%;
+  margin: 0 auto;
+}
+#interier .text-name {
+  font-size: 48px;
+  padding: 60px 0px;
+  text-align: center;
+}
+#interier .interier-up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 100px;
+}
+#interier .interier-up .interier-upper {
+  background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/14.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 600px;
+  width: 33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 50px;
+}
+#interier .interier-up .interier-upper h2 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px;
+  border-top: 2px solid white;
+}
+#interier .interier-up .interier-upper p {
+  color: white;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
